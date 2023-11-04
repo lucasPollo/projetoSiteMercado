@@ -9,7 +9,7 @@
     <title>Ptz | Supermercado</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg " style='background-color: rgb(15, 85, 73);'>
+    <nav class="navbar navbar-expand-lg " style='background-color: rgb(15, 31, 85);'>
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#">Ptz Supermercado</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,17 +39,35 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex" role="search" id="button-login">
               <a href=""><button class="btn btn-outline-success text-white " style='background-color: rgb(3, 4, 71)'  type="submit">login</button></a>
             </form>
           </div>
         </div>
       </nav>
-      <div class="container-fluid">
-        <div class="box-img">
-          <img class="img-self rounded img-fluid  " src="assets/imagens/" alt="">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="assets/imagens/bannerFrutas1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="assets/imagens/bannerSite.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/imagens/bannerClubePtz.png" class="d-block w-100" alt="...">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+     
+
 
   
       
